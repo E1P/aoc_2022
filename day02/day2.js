@@ -51,7 +51,6 @@ async function run() {
       let me = getPlay[opp + requiredResult];
 
       let score = results[`${opp}${me}`];
-      // console.log(score);
       totalScore += score;
     }
   }
